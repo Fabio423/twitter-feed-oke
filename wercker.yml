@@ -61,7 +61,7 @@ deploy-to-cluster:
         insecure-skip-tls-verify: true
         command: apply -f kubernetes.yml
         
-        deploy-load-balancer:
+deploy-load-balancer:
   box:
       id: alpine
       cmd: /bin/sh
